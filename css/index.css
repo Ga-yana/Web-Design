@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+body{
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    /* background-position-x:650px ; */
+    /* background-size: 55%; */
+    background-position-x:480px ; 
+    background-size: 67%;
+    background-position-y:-170px;
+    /* background:linear-gradient( #E1A2B8 ,#9F2BC1); */
+}
+
+nav{
+    display: flex;
+    height: 15vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 100px;
+    margin-left: 10%;
+}
+
+nav div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    font-size: 18px;
+    margin-top: 50px;
+    color: #3F4894;
+    font-weight: 300;
+}
+
+.signin-btn{
+    background-image: linear-gradient(to right,#965CF2,#FC8ADC);
+    height: 30px;
+    margin-right: 13%;
+    margin-top: 50px;
+    color: #ffffff;
+    border: none;
+    border-radius: 1rem;
+    padding: 0 20px;
+}
+
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    padding-left: 10%;
+    gap: 9%;
+    flex: 0.4; 
+}
+
+.left-section h1{
+    color: #3F4894;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 16%;
+
+
+}
+
+.left-section h4{
+    
+    color: #242854;
+    font-weight: 300;
+    font-size: 14px;
+    /* padding-top: 13%; */
+    padding-right: 43%;
+    line-height: 25px;
+    
+}
+
+.learn-more-btn{
+   
+    /* background-color: linear-gradient(#E1A2B8, #9F2BC1); */
+    background-image: linear-gradient(to right,#965CF2,#FC8ADC);
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    width:250px;
+    padding: 13px 30px;
+    border-radius: 5em;
+    border: none;
+}
+
+.vector-img{
+    position: absolute;
+    left: 35%;
+    bottom: 23%;
+}
+
+.vector-dot{
+    position: absolute;
+    left: 39%;
+    bottom: 33%;  
+}
+
+.imgs-div img:nth-child(3){
+    position: absolute;
+    right: 4%;
+    top: 10%;
+    width: 760px;
+}
