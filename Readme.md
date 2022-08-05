@@ -7,7 +7,7 @@ By Ga-yana  :computer:
 
 ## A web design landing page.
 
-### Click [here]() to see it live
+### Click [here](https://webdesignpagepink.netlify.app/) to see it live
 
 ![Homepage](./images/Screenshot%202022-08-05%20at%206.14.10%20PM.png)
 # 
