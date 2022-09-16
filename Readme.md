@@ -6,6 +6,7 @@ By Ga-yana  :computer:
 #
 
 ## A web design landing page.
+Also tab and mobile responsive.
 
 ### Click [here](https://webdesignpagepink.netlify.app/) to see it live
 
